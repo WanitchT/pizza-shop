@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>PIZZA SHOP - Fighto Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper-header">
+        <img src="images/Fighto.jpg" style="width: 150px; height: 150px;" alt="" class="center">
+        <div class="project-name">
+            <h2>FIGHTO PIZZA</h2>
+            <p>by fighto team</p>
+        </div>
+    </div>
+    
+    <div class="wrapper-content">
+        <div class="project-wrap">
+            <h3>Order</h3>
+            <div class="form-order-wrapper">
+                <form action="post.html" method="post">
+
+                    <div class="form-wrap">
+                        <div class="label">Team</div>
+                        <div class="form-content">Fighto : วณิข ธีรโพธิพันธ์</div>
+                    </div>
+
+                    <div class="form-wrap">
+                        <div class="label">Name</div>
+                        <div class="form-content"><input type="text" name="name"></input></div>
+                    </div>
+
+                    <div class="form-wrap">
+                        <div class="label">Pizza Topping</div>
+                        <div class="form-content">
+                            <input type="radio" name="topping" value="supreme">Supreme</input>
+                            <input type="radio" name="topping" value="vegetarian">Vegetarian</input>
+                            <input type="radio" name="topping" value="hawaiian">Hawaiian</input>
+                        </div>
+                    </div>
+
+                    <div class="form-wrap">
+                        <div class="label">Pizza Sauce</div>
+                        <div class="form-content">
+                            <select name="sauce">
+                                <option value="tomato">Tomato</option>
+                                <option value="barbeque">Barbeque</option>
+                                <option value="mayonnaise">Mayonnaise</option>
+                                <option value="secret">Secret Sauce</option>
+                              </select>
+                        </div>
+                    </div>
+
+                    <div class="form-wrap">
+                        <div class="label">Extra Options</div>
+                        <div class="form-content">
+                            <input type="checkbox" name="extra_cheese" value="1">Extra Cheese</input>
+                            <input type="checkbox" name="gluten_free" value="1">Gluten Free Base</input>
+                        </div>
+                    </div>
+
+                    <div class="form-wrap">
+                        <div class="label">Delivery Instructions</div>
+                        <div class="form-content">
+                            <textarea name="delivery" cols="50" rows="4"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-wrap">
+                        <div class="label">.</div>
+                        <div class="form-content">
+                            <input class="submit-btn" type="submit" value="Send my Order">
+
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        
+        <div class="wrapper-footer">
+            <div class="footer-l1">
+                copyright - BAAC Code Camp 2020
+            </div>
+            <div class="footer-l2">
+
+            </div>
+            <div class="footer-l3">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
